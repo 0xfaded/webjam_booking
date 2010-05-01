@@ -10,4 +10,19 @@
  */
 abstract class PluginCompanyForm extends BaseCompanyForm
 {
+  public function setup()
+  {
+    parent::setup();
+
+    unset($this['arrangements_list']);
+
+//    $query = Doctrine_Query::create()
+//                  ->from('Arranglement a')
+//                  ->addWhere('a.id = ?', $stock_id);
+//    $product_stock = $query->fetchOne();
+
+    // Embed
+    $profileForm = new ArrangementForm();
+    $this->embedForm("arrangement", $profileForm);
+  }
 }

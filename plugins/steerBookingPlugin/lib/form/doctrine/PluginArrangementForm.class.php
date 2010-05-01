@@ -10,4 +10,10 @@
  */
 abstract class PluginArrangementForm extends BaseArrangementForm
 {
+  public function setup()
+  {
+    parent::setup();
+
+    unset($this['company_list']);
+  }
 }
