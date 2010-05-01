@@ -70,3 +70,75 @@ May 01 21:06:49 symfony [info] {sfWebDebugLogger} Partial "booking/_list_batch_a
 May 01 21:06:49 symfony [info] {sfWebDebugLogger} Partial "booking/_list_actions" 1.02 ms (1)
 May 01 21:06:49 symfony [info] {sfWebDebugLogger} Partial "booking/_list_footer" 0.75 ms (1)
 May 01 21:06:49 symfony [info] {sfWebResponse} Send content (103359 o)
+May 01 21:17:35 symfony [info] {sfPatternRouting} Match route "booking" (/booking.:sf_format) for /booking with parameters array (  'module' => 'booking',  'action' => 'index',  'sf_format' => 'html',)
+May 01 21:17:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:17:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:17:35 symfony [info] {bookingActions} Call "bookingActions->executeIndex()"
+May 01 21:17:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 01 21:17:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM booking b - ()
+May 01 21:17:41 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/indexSuccess.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_assets.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_flashes.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_header.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_filters_field.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_th_tabular.php"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.first_name AS b__first_name, b.last_name AS b__last_name, b.email AS b__email, b.phone AS b__phone, b.seats AS b__seats, b.arrival AS b__arrival, b.no_show AS b__no_show FROM booking b LIMIT 20 - ()
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_td_batch_actions.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_td_tabular.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_field_boolean.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_td_actions.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_td_batch_actions.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_td_tabular.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_field_boolean.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_td_actions.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_batch_actions.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_actions.php"
+May 01 21:17:41 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/frontend/dev/modules/autoBooking/templates/_list_footer.php"
+May 01 21:17:41 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 21:17:41 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 21:17:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:17:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Configuration 2.48 ms (11)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Factories 49.51 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Action "booking/index" 5239.85 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} View "Success" for "booking/index" 218.82 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_assets" 0.92 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_flashes" 0.81 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_header" 1.12 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_filters" 30.39 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_filters_field" 19.93 ms (7)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list" 157.76 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_th_tabular" 5.19 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_td_batch_actions" 2.08 ms (2)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_td_tabular" 106.75 ms (2)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_field_boolean" 1.78 ms (2)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_td_actions" 4.09 ms (2)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_batch_actions" 1.35 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_actions" 0.93 ms (1)
+May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_footer" 0.75 ms (1)
+May 01 21:17:41 symfony [info] {sfWebResponse} Send content (103389 o)
