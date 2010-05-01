@@ -15,6 +15,14 @@
         <script type="text/javascript" src="js/main.js"></script>-->
     </head>
     <body>
-        
+        <?php
+        // we connect to example.com and port 3307
+        $link = mysql_connect('shptech.com:3306', 'booking', '123123');
+        if (!$link) {
+            die('Could not connect: ' . mysql_error());
+        }
+        echo 'Connected successfully';
+        mysql_close($link);
+        ?>
     </body>
 </html>
