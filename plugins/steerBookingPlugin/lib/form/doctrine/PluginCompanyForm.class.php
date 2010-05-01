@@ -17,12 +17,36 @@ abstract class PluginCompanyForm extends BaseCompanyForm
     unset($this['arrangements_list']);
 
 //    $query = Doctrine_Query::create()
-//                  ->from('Arranglement a')
-//                  ->addWhere('a.id = ?', $stock_id);
-//    $product_stock = $query->fetchOne();
+//                  ->from('Arrangement a');
+//    $arrangements = $query->Execute();
+
+    $this->embedCompanyToArrangement();
 
     // Embed
-    $profileForm = new ArrangementForm();
-    $this->embedForm("arrangement", $profileForm);
+    //$profileForm = new ArrangementForm();
+    //$this->embedForm("arrangement", $profileForm);
+  }
+
+  public function embedCompanyToArrangement()
+  {
+    foreach($this->getObject()->Arrangements as $arrangement)
+    {
+      $key = 'company_to_arrangement_'.$arrangement->getId();
+
+//      $company_to_arrangement = new CompanyToArrangement();
+//      $company_to_arrangement->setCompanyId($this->getObject()->getId());
+//      //$company_to_arrangement->setArrangementId($arrangement->getId());
+//
+//      $company_to_arrangement_form = new CompanyToArrangementForm($arrangement);
+//      //$company_to_arrangement_form->setArrangement($arrangement);
+//
+//
+      $profileForm = new ArrangementForm($arrangement);
+      $this->embedForm($key, $profileForm);
+      $this->widgetSchema[$key]->setLabel('Table no '.$arrangement->getNumber());
+    }
+    $profileForm_new = new ArrangementForm();
+    $this->embedForm('company_to_arrangement', $profileForm_new);
+    $this->widgetSchema['company_to_arrangement']->setLabel('New table');
   }
 }

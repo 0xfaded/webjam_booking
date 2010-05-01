@@ -1,0 +1,3 @@
+<td colspan="8">
+  <?php echo __('%%id%% - %%first_name%% - %%last_name%% - %%email%% - %%phone%% - %%seats%% - %%arrival%% - %%no_show%%', array('%%id%%' => link_to($booking->getId(), 'booking_edit', $booking), '%%first_name%%' => $booking->getFirstName(), '%%last_name%%' => $booking->getLastName(), '%%email%%' => $booking->getEmail(), '%%phone%%' => $booking->getPhone(), '%%seats%%' => $booking->getSeats(), '%%arrival%%' => false !== strtotime($booking->getArrival()) ? format_date($booking->getArrival(), "f") : '&nbsp;', '%%no_show%%' => get_partial('booking/list_field_boolean', array('value' => $booking->getNoShow()))), 'messages') ?>
+</td>
