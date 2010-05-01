@@ -299,3 +299,162 @@ May 01 21:06:36 symfony [info] {sfWebDebugLogger} Partial "company/_list_batch_a
 May 01 21:06:36 symfony [info] {sfWebDebugLogger} Partial "company/_list_actions" 0.97 ms (1)
 May 01 21:06:36 symfony [info] {sfWebDebugLogger} Partial "company/_list_footer" 0.73 ms (1)
 May 01 21:06:36 symfony [info] {sfWebResponse} Send content (58788 o)
+May 01 21:15:51 symfony [info] {sfPatternRouting} Match route "company" (/company.:sf_format) for /company with parameters array (  'module' => 'company',  'action' => 'index',  'sf_format' => 'html',)
+May 01 21:15:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:15:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:15:51 symfony [info] {companyActions} Call "companyActions->executeIndex()"
+May 01 21:15:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 01 21:15:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM company c - ()
+May 01 21:15:56 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/indexSuccess.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_assets.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_flashes.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_header.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters_field.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters_field.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters_field.php"
+May 01 21:15:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.number AS a__number, a.shape AS a__shape, a.seats AS a__seats, a.x AS a__x, a.y AS a__y, a.length AS a__length, a.width AS a__width FROM arrangement a - ()
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_batch_actions.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_actions.php"
+May 01 21:15:56 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_footer.php"
+May 01 21:15:56 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/backend/templates/layout.php"
+May 01 21:15:56 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/backend/templates/layout.php"
+May 01 21:15:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:15:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Configuration 2.53 ms (12)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Factories 143.72 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Action "company/index" 5277.49 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} View "Success" for "company/index" 110.18 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_assets" 0.90 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_flashes" 0.79 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_list_header" 0.84 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_filters" 80.96 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_filters_field" 73.34 ms (3)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_list" 1.19 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_list_batch_actions" 1.33 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_list_actions" 0.92 ms (1)
+May 01 21:15:57 symfony [info] {sfWebDebugLogger} Partial "company/_list_footer" 0.74 ms (1)
+May 01 21:15:57 symfony [info] {sfWebResponse} Send content (58788 o)
+May 01 21:16:55 symfony [info] {sfPatternRouting} Match route "company" (/company.:sf_format) for /company with parameters array (  'module' => 'company',  'action' => 'index',  'sf_format' => 'html',)
+May 01 21:16:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:16:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:16:55 symfony [info] {companyActions} Call "companyActions->executeIndex()"
+May 01 21:17:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 01 21:17:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM company c - ()
+May 01 21:17:00 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/indexSuccess.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_assets.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_flashes.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_header.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters_field.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters_field.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_filters_field.php"
+May 01 21:17:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.number AS a__number, a.shape AS a__shape, a.seats AS a__seats, a.x AS a__x, a.y AS a__y, a.length AS a__length, a.width AS a__width FROM arrangement a - ()
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_batch_actions.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_actions.php"
+May 01 21:17:00 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoCompany/templates/_list_footer.php"
+May 01 21:17:00 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/backend/templates/layout.php"
+May 01 21:17:00 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/backend/templates/layout.php"
+May 01 21:17:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:17:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Configuration 2.44 ms (12)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Factories 50.60 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Action "company/index" 5251.64 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} View "Success" for "company/index" 103.20 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_assets" 0.85 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_flashes" 0.78 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_list_header" 0.75 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_filters" 73.38 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_filters_field" 65.90 ms (3)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_list" 1.19 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_list_batch_actions" 1.40 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_list_actions" 0.96 ms (1)
+May 01 21:17:00 symfony [info] {sfWebDebugLogger} Partial "company/_list_footer" 0.73 ms (1)
+May 01 21:17:00 symfony [info] {sfWebResponse} Send content (58819 o)
+May 01 21:17:04 symfony [info] {sfPatternRouting} Match route "arrangement" (/arrangement.:sf_format) for /arrangement with parameters array (  'module' => 'arrangement',  'action' => 'index',  'sf_format' => 'html',)
+May 01 21:17:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:17:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:17:04 symfony [info] {arrangementActions} Call "arrangementActions->executeIndex()"
+May 01 21:17:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 01 21:17:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM arrangement a - ()
+May 01 21:17:09 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/indexSuccess.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_assets.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_flashes.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_header.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_filters_field.php"
+May 01 21:17:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.description AS c__description FROM company c - ()
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_th_tabular.php"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Set slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {main} Get slot "sf_admin.current_header"
+May 01 21:17:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.number AS a__number, a.shape AS a__shape, a.seats AS a__seats, a.x AS a__x, a.y AS a__y, a.length AS a__length, a.width AS a__width FROM arrangement a LIMIT 20 - ()
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_tabular.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_tabular.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_tabular.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_tabular.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_tabular.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_tabular.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_td_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_batch_actions.php"
+May 01 21:17:09 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_actions.php"
+May 01 21:17:10 symfony [info] {sfPartialView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/cache/backend/dev/modules/autoArrangement/templates/_list_footer.php"
+May 01 21:17:10 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/backend/templates/layout.php"
+May 01 21:17:10 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/backend/templates/layout.php"
+May 01 21:17:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:17:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Configuration 2.71 ms (12)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Factories 51.01 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Action "arrangement/index" 5222.31 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} View "Success" for "arrangement/index" 185.78 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_assets" 0.86 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_flashes" 0.80 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_header" 1.00 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_filters" 58.74 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_filters_field" 47.81 ms (8)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list" 98.66 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_th_tabular" 5.34 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_td_batch_actions" 5.52 ms (6)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_td_tabular" 13.76 ms (6)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_td_actions" 12.43 ms (6)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_batch_actions" 1.52 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_actions" 1.13 ms (1)
+May 01 21:17:10 symfony [info] {sfWebDebugLogger} Partial "arrangement/_list_footer" 0.80 ms (1)
+May 01 21:17:10 symfony [info] {sfWebResponse} Send content (125893 o)
