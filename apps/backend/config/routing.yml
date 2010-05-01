@@ -1,3 +1,21 @@
+arrangement:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Arrangement
+    module:               arrangement
+    prefix_path:          /arrangement
+    column:               id
+    with_wildcard_routes: true
+
+company:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Company
+    module:               company
+    prefix_path:          /company
+    column:               id
+    with_wildcard_routes: true
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
