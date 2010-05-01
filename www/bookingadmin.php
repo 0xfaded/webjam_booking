@@ -32,10 +32,10 @@
     </head>
     <body>
         <?php
-          $hostname = 'localhost:8889'; //shptech.com:3306
-          $username = 'steercms_user'; //booking
-          $password = 'steercms_user'; //123123
-          $dbname = 'steerCMS14';
+          $hostname = 'shptech.com:3306'; //shptech.com:3306
+          $username = 'booking'; //booking
+          $password = '123123'; //123123
+          $dbname = 'booking';
 
           //$link = mysql_connect('shptech.com:3306', 'booking', '123123');
           $link = mysql_connect($hostname, $username, $password);
@@ -275,7 +275,7 @@
                 <div>
 
               <label for="booking_no_show">No show</label>
-              <div class="content"><input type="checkbox" name="booking[no_show]" checked="checked" id="booking_no_show" /></div>
+              <div class="content"><input type="checkbox" name="booking[no_show]" checked="uchecked" id="booking_no_show" /></div>
 
                   </div>
           </div>

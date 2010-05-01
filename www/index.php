@@ -1,4 +1,5 @@
-<?php require(inc/header.php); ?>
+<?php require_once("inc/connection.php"); ?>
+<?php include("inc/header.php"); ?>
 
-
-<?php require(inc/footer.php); ?>
+asdas
+<?php include("inc/footer.php"); ?>

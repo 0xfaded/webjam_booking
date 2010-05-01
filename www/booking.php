@@ -1,4 +1,3 @@
-
 <?php require_once("inc/header.php"); ?>
 
 Database info: <br>
@@ -21,14 +20,16 @@ if (isset($_POST["name"])) {
 ?>
 </pre>
 <form action='' method="post">
-    <label for="first_name">First Name:</label>
-        <input type="text" name="first_name" /><br />
+    <label for="name">First Name:</label>
+        <input type="text" name="name" /><br />
     <label for="last_name">Last Name:</label>
         <input type="text" name="email" /><br />
     <label for="email">Email:</label>
         <input type="text" name="email" /><br />
-<input type="text" name="phone" /><br />
-<input type="text" name="seats" /><br />
-<input type="submit" value="Book" />
+    <label for="phone">Phone:</label>
+        <input type="text" name="phone" /><br />
+    <label for="seats">Seats:</label>
+        <input type="text" name="seats" /><br />
+    <input type="submit" value="Book" />
 </form>
 <?php require_once("inc/footer.php"); ?>
