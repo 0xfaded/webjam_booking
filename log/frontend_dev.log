@@ -1,0 +1,28 @@
+May 01 22:22:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 22:22:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 22:22:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 22:22:34 symfony [info] {BookingFrontendActions} Call "BookingFrontendActions->executeIndex()"
+May 01 22:22:34 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/plugins/steerBookingPlugin/modules/bookingFrontend/templates/indexSuccess.php"
+May 01 22:22:34 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 22:22:34 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 22:22:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 22:22:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 22:22:34 symfony [info] {sfWebDebugLogger} Configuration 158.52 ms (9)
+May 01 22:22:34 symfony [info] {sfWebDebugLogger} Factories 122.33 ms (1)
+May 01 22:22:34 symfony [info] {sfWebDebugLogger} Action "bookingFrontend/index" 0.20 ms (1)
+May 01 22:22:34 symfony [info] {sfWebDebugLogger} View "Success" for "bookingFrontend/index" 20.02 ms (1)
+May 01 22:22:34 symfony [info] {sfWebResponse} Send content (28692 o)
+May 01 22:23:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 22:23:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 22:23:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 22:23:59 symfony [info] {BookingFrontendActions} Call "BookingFrontendActions->executeIndex()"
+May 01 22:23:59 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/plugins/steerBookingPlugin/modules/bookingFrontend/templates/indexSuccess.php"
+May 01 22:23:59 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 22:23:59 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 22:23:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 22:23:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 22:23:59 symfony [info] {sfWebDebugLogger} Configuration 1.93 ms (9)
+May 01 22:23:59 symfony [info] {sfWebDebugLogger} Factories 49.51 ms (1)
+May 01 22:23:59 symfony [info] {sfWebDebugLogger} Action "bookingFrontend/index" 0.19 ms (1)
+May 01 22:23:59 symfony [info] {sfWebDebugLogger} View "Success" for "bookingFrontend/index" 15.08 ms (1)
+May 01 22:24:00 symfony [info] {sfWebResponse} Send content (28721 o)

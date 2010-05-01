@@ -34,6 +34,16 @@ class BaseBookingFrontendActions extends sfActions
    */
   public function executeIndex(sfWebRequest $request)
   {
+    $query = Doctrine_Query::create()
+                  ->from('Arranglement a')
+                  //->leftJoin($join, $params)
+                  ->addWhere('a.id = ?', $stock_id);
+    $arrangements = $query->Execute();
 
+    $query = Doctrine_Query::create()
+                  ->from('Booking b');
+    $bookings = $query->Execute();
+
+    
   }
 }
