@@ -3,3 +3,10 @@ CREATE TABLE booking (id BIGINT AUTO_INCREMENT, first_name VARCHAR(255), last_na
 CREATE TABLE company (id BIGINT AUTO_INCREMENT, name VARCHAR(255), description VARCHAR(255), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE company_to_arrangement (company_id BIGINT, table_id BIGINT, PRIMARY KEY(company_id, table_id)) ENGINE = INNODB;
 
+
+
+ALTER TABLE `arrangement` ADD `x` VARCHAR( 10 ) NOT NULL ,
+ADD `y` VARCHAR( 10 ) NOT NULL ,
+ADD `length` VARCHAR( 10 ) NOT NULL ,
+ADD `width` VARCHAR( 10 ) NOT NULL
+
