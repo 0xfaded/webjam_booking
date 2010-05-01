@@ -142,3 +142,76 @@ May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_batch_a
 May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_actions" 0.93 ms (1)
 May 01 21:17:41 symfony [info] {sfWebDebugLogger} Partial "booking/_list_footer" 0.75 ms (1)
 May 01 21:17:41 symfony [info] {sfWebResponse} Send content (103389 o)
+May 01 21:44:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /frontend with parameters array (  'module' => 'frontend',  'action' => 'index',)
+May 01 21:44:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /frontend with parameters array (  'module' => 'frontend',  'action' => 'index',)
+May 01 21:45:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /frontend with parameters array (  'module' => 'frontend',  'action' => 'index',)
+May 01 21:45:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /frontent with parameters array (  'module' => 'frontent',  'action' => 'index',)
+May 01 21:45:38 symfony [info] {sfFrontWebController} Action "frontent/index" does not exist
+May 01 21:45:38 symfony [err] {sfError404Exception} Action "frontent/index" does not exist.
+May 01 21:45:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 01 21:45:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:45:38 symfony [info] {sfWebDebugLogger} Configuration 1.01 ms (5)
+May 01 21:45:38 symfony [info] {sfWebDebugLogger} Factories 49.34 ms (1)
+May 01 21:48:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:48:06 symfony [err] {sfConfigurationException} The module "bookingFrontend" is not enabled.
+May 01 21:48:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 01 21:48:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:48:06 symfony [info] {sfWebDebugLogger} Configuration 148.76 ms (5)
+May 01 21:48:06 symfony [info] {sfWebDebugLogger} Factories 135.21 ms (1)
+May 01 21:48:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:53:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:53:22 symfony [warning] {sfWebDebugLogger}  Warning at /Users/SeaShadow/Sites/htdocs/webjam_booking/plugins/steerBookingPlugin/modules/bookingFrontend/actions/actions.class.php on line 10 (require_once(/Users/SeaShadow/Sites/htdocs/webjam_booking/plugins/steerBookingPlugin/modules/bookingFrontend/actions/../lib/BaseBookingtFrontendActions.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory)
+May 01 21:54:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:54:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:54:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:54:47 symfony [info] {sfFrontWebController} Action "bookingFrontend/index" does not exist
+May 01 21:54:47 symfony [err] {sfError404Exception} Action "bookingFrontend/index" does not exist.
+May 01 21:54:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 01 21:54:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:54:47 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (5)
+May 01 21:54:47 symfony [info] {sfWebDebugLogger} Factories 53.17 ms (1)
+May 01 21:55:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:55:08 symfony [info] {sfFrontWebController} Action "bookingFrontend/index" does not exist
+May 01 21:55:08 symfony [err] {sfError404Exception} Action "bookingFrontend/index" does not exist.
+May 01 21:55:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 01 21:55:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:55:08 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (5)
+May 01 21:55:08 symfony [info] {sfWebDebugLogger} Factories 48.31 ms (1)
+May 01 21:55:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /bookingFrontend with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:55:25 symfony [info] {sfFrontWebController} Action "bookingFrontend/index" does not exist
+May 01 21:55:25 symfony [err] {sfError404Exception} Action "bookingFrontend/index" does not exist.
+May 01 21:55:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 01 21:55:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:55:25 symfony [info] {sfWebDebugLogger} Configuration 1.01 ms (5)
+May 01 21:55:25 symfony [info] {sfWebDebugLogger} Factories 49.44 ms (1)
+May 01 21:55:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bookingFrontend/index with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:55:57 symfony [info] {sfFrontWebController} Action "bookingFrontend/index" does not exist
+May 01 21:55:57 symfony [err] {sfError404Exception} Action "bookingFrontend/index" does not exist.
+May 01 21:55:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 01 21:55:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:55:57 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (5)
+May 01 21:55:57 symfony [info] {sfWebDebugLogger} Factories 49.63 ms (1)
+May 01 21:56:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bookingFrontend/index with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:56:06 symfony [info] {sfFrontWebController} Action "bookingFrontend/index" does not exist
+May 01 21:56:06 symfony [err] {sfError404Exception} Action "bookingFrontend/index" does not exist.
+May 01 21:56:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 01 21:56:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:56:06 symfony [info] {sfWebDebugLogger} Configuration 136.06 ms (5)
+May 01 21:56:06 symfony [info] {sfWebDebugLogger} Factories 120.31 ms (1)
+May 01 21:56:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bookingFrontend/index with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:56:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:56:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:57:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /bookingFrontend/index with parameters array (  'module' => 'bookingFrontend',  'action' => 'index',)
+May 01 21:57:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 21:57:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 21:57:02 symfony [info] {BookingFrontendActions} Call "BookingFrontendActions->executeIndex()"
+May 01 21:57:02 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/plugins/steerBookingPlugin/modules/bookingFrontend/templates/indexSuccess.php"
+May 01 21:57:02 symfony [info] {sfPHPView} Decorate content with "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 21:57:02 symfony [info] {sfPHPView} Render "/Users/SeaShadow/Sites/htdocs/webjam_booking/apps/frontend/templates/layout.php"
+May 01 21:57:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 21:57:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 21:57:02 symfony [info] {sfWebDebugLogger} Configuration 26.98 ms (10)
+May 01 21:57:02 symfony [info] {sfWebDebugLogger} Factories 56.56 ms (1)
+May 01 21:57:02 symfony [info] {sfWebDebugLogger} Action "bookingFrontend/index" 0.15 ms (1)
+May 01 21:57:02 symfony [info] {sfWebDebugLogger} View "Success" for "bookingFrontend/index" 76.78 ms (1)
+May 01 21:57:02 symfony [info] {sfWebResponse} Send content (28758 o)

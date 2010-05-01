@@ -37,3 +37,4 @@ all:
     enabled_modules:
       - default
       - booking
+      - bookingFrontend
