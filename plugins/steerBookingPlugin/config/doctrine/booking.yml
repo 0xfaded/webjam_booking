@@ -1,0 +1,54 @@
+#
+# Booking
+#
+# A simple object which is part of the publishing syste - see SteerCmsBlogOnline
+# which inherits for SteerCmsBlog via Doctrine Inheritance (concrete).
+#
+Booking:
+  columns:
+    first_name:    { type: string(255) }
+    last_name:     { type: string(255) }
+    email:         { type: string(255) }
+    phone:         { type: string(255) }
+    seats:         { type: integer }
+    arrival:       { type: timestamp }
+    no_show:       { type: boolean, default: 0 }
+
+Company:
+  columns:
+    name:          { type: string(255) }
+    description:   { type: string(255) }
+  relations:
+    Arrangements:
+      class: Arrangement
+      local: company_id
+      foreign:  table_id
+      refClass: CompanyToArrangement
+
+CompanyToArrangement:
+  columns:
+    company_id:
+      type: integer
+      primary: true
+    table_id:
+      type: integer
+      primary: true
+  relations:
+    Company:
+      local: company_id
+      foreign: id
+      onDelete: CASCADE
+    Arrangement:
+      local: table_id
+      foreign: id
+      onDelete: CASCADE
+
+Arrangement:
+  columns:
+    number:        { type: integer }
+    shape:         { type: string(255) }
+    seats:         { type: integer }
+    x:             { type: string(255) }
+    y:             { type: string(255) }
+    length:        { type: string(255) }
+    width:         { type: string(255) }
